@@ -1,0 +1,32 @@
+    1  clear
+    2  ls -l
+    3  git config --global user.name lutfiyememet
+    4  git config --get user.name
+    5  git config --global user.email lutfiye.memetova@gmail.com
+    6  git config --get user.email
+    7  git clone https://github.com/Lutfiyememet/HW_10.git
+    8  cd /c/Users/Lutfye/Desktop/git1/HW_10
+    9  touch text_ignore.txt
+   10  vim .gitignore
+   11  git status
+   12  git add
+   13  git config advice.addEmptyPathspec false
+   14  git add.
+   15  git add .
+   16  git commit -m "changet gitignore"
+   17  git commit --amend
+   18  touch main_test.txt
+   19  ls -l
+   20  git add .
+   21  git commit -m "create main_test"
+   22  git checkout -b develop
+   23  touch develop_test.txt
+   24  git add .
+   25  git commit -m "new branch develop, create develop_test"
+   26  git status
+   27  git add .
+   28  git commit
+   29  git checkout main
+   30  git merge develop
+   31  git log
+   32  history>command_list.csv
